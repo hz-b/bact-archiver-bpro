@@ -1,9 +1,12 @@
-# bact-archiver-local: Configuration of your local archiver
+# bact-archiver-bpro: archivers of bERLinPro
 
-This local package is all that is required to use bact-archiver.
+Load the package by
 
-* Rename the package (e.g. replacing _local with the name of your insitution).
-* Edit config/archiver.cfg for your archivers
-* Install this package. This will then install
-  [bact-archiver](https://github.com/hz-b/bact-archiver), which contains
-  all requiered code.
+```python
+
+import bact_archiver_bpro
+```
+
+This will load the avilable archivers. These are the accessible as attributes
+of the module `bact_archiver_bpro`. Documentation of the archiver itself is
+found at   [bact-archiver](https://github.com/hz-b/bact-archiver).
